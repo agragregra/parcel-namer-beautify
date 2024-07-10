@@ -1,4 +1,4 @@
-# `parcel-namer-beautify`
+# `@agragregra/parcel-namer-beautify`
 
 1. Keep folder structure and filename
 2. Remove hash
