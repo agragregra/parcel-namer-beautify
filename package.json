@@ -1,7 +1,7 @@
 {
 	"name": "@agragregra/parcel-namer-beautify",
 	"main": "lib/index.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"homepage": "",
 	"description": "Parcel namer that preserves directory structures and remove hashes.",
 	"author": "",
