@@ -21,7 +21,7 @@ var _default = new _plugin.Namer({
 			const root = (0, _gatsbyCoreUtils.slash)(process.cwd());
 			const sourceRelativeToRoot = path.posix.relative(root, (0, _gatsbyCoreUtils.slash)(path.dirname(mainEntry.filePath)));
 			const srcPath = path.posix.join(sourceRelativeToRoot, path.basename(relativePathFromDefaultNamer)).replace("src/", "");
-			const newPath = srcPath.replace(/\.(.*?)\./g, ".").replace('/index.css', '/main.css').replace('styles/', 'css/').replace('/index.js', '/app.js')
+			const newPath = srcPath.replace(/\.(.*?)\./g, ".").replace('/index.css', '/main.css').replace('styles/', 'css/').replace('/index.js', '/app.js').replace('.jpeg', '.jpg')
 			return newPath;
 		} return null;
 	}
