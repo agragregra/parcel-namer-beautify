@@ -6,7 +6,7 @@
 ## Usage
 
 ```shell
-npm i -D parcel-namer-beautify
+npm i -D @agragregra/parcel-namer-beautify
 ```
 
 And inside your `.parcelrc`:
@@ -14,6 +14,6 @@ And inside your `.parcelrc`:
 ```
 {
   "extends": "@parcel/config-default",
-  "namers": ["parcel-namer-beautify", "..."]
+  "namers": ["@agragregra/parcel-namer-beautify", "..."]
 }
 ```
