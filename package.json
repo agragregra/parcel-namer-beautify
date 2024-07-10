@@ -1,5 +1,5 @@
 {
-	"name": "parcel-namer-beautify",
+	"name": "@agragregra/parcel-namer-beautify",
 	"main": "lib/index.js",
 	"version": "1.0.0",
 	"homepage": "",
@@ -36,5 +36,7 @@
 	"files": [
 		"lib/index.js"
 	],
-	"gitHead": ""
+	"directories": {
+		"lib": "lib"
+	}
 }
